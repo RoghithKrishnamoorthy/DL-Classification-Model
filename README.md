@@ -12,20 +12,21 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 ### STEP 1: Load the dataset
 Load the Iris dataset using a suitable library.
+
 ### STEP 2: Preprocess the data
 Preprocess the data by handling missing values and normalizing features.
+
 ### STEP 3: Split the dataset
 Split the dataset into training and testing sets.
-### STEP 4: Train the model
+### STEP 4:  Train the model
 Train a classification model using the training data.
 ### STEP 5: Evaluate the model
 Evaluate the model on the test data and calculate accuracy.
-### STEP 6:  Display results
+### STEP 6: Display results
 Display the test accuracy, confusion matrix, and classification report.
-
 ## PROGRAM
 
-### Name: ROGHITH K
+### Name: Roghith k
 
 ### Register Number: 212222040135
 
@@ -121,8 +122,8 @@ accuracy = accuracy_score(actuals, predictions)
 conf_matrix = confusion_matrix(actuals, predictions)
 class_report = classification_report(actuals, predictions, target_names=iris.target_names)
 
-print("\nHanshika Varthini R")
-print("Register No: 212223240046")
+print("\nName: Roghith K")
+print("Register No: 212222040135")
 print(f'Test Accuracy: {accuracy:.2f}%\n')
 print("Classification Report:\n", class_report)
 print("\nConfusion Matrix:\n", conf_matrix)
@@ -140,25 +141,33 @@ with torch.no_grad():
     predicted_class_index = torch.argmax(output[0]).item()
     predicted_class_label = iris.target_names[predicted_class_index]
 
-print("\nHanshika Varthini R")
-print("Register No: 212223240046")
+print("\nName: Roghith K")
+print("Register No: 212222040135")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {iris.target_names[y_test[5].item()]}')
+
 ```
 
 ### Dataset Information
-![Screenshot 2025-04-17 082938](https://github.com/user-attachments/assets/a11d9071-cd0c-40ac-ac82-f7ce839a6a02)
+![image](https://github.com/user-attachments/assets/086e0689-a3c4-4d0a-8a9c-aa8267faab07)
+
+
 ### OUTPUT
 
 ## Confusion Matrix
-![Screenshot 2025-04-17 083234](https://github.com/user-attachments/assets/aa7ad430-e7c6-4e62-9553-fbd577168430)
+![image](https://github.com/user-attachments/assets/c088fe92-138c-49b1-bb31-fccf5a45c208)
+
 
 ## Classification Report
-![Screenshot 2025-04-17 083153](https://github.com/user-attachments/assets/36e18bbf-ee4c-4e0f-b0d9-d16c16da6578)
+![image](https://github.com/user-attachments/assets/12a91cd0-d9ad-4698-9c72-2195684fb743)
+
 
 ### New Sample Data Prediction
+![image](https://github.com/user-attachments/assets/118f92d3-400f-426f-944a-e11c6430014f)
 
-![Screenshot 2025-04-17 083303](https://github.com/user-attachments/assets/064de0ef-d82d-43db-ae8a-14dde4f86454)
 
 ## RESULT
 Thus, a neural network classification model was successfully developed and trained using PyTorch
+
+
+```
